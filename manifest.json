@@ -2,10 +2,10 @@
   "manifest_version": 3,
   "name": "이동선 바이러스 v1",
   "version": "0.1",
-  "contents_scripts": [
+  "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["index.js"]
+      "js": ["./scripts/index.js"]
     }
   ]
 }
